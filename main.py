@@ -15,7 +15,7 @@ DEV_BUTTONS = {
         [{'text': 'القناه', 'url': 'https://t.me/dataALKooool'}],
         [{'text': 'المطور', 'url': 'https://t.me/HAMo_ALKING_9'}]
     ]
-
+}
 
 def bot_request(method, datas={}):
     url = f"https://api.telegram.org/bot{API_TOKEN}/{method}"
